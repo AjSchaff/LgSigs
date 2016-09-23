@@ -1,3 +1,3 @@
-# [Logical Signals] is a resource hub for trading the Forex Markets
+##Readme file
 
-## Getting Started
+Testing conflict
