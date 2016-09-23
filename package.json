@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node ./bin/www"
   },
-  "author": "Kevin Bacino",
+  "author": "Andrew Schaffner",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.15.2",
