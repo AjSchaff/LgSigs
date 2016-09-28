@@ -1,3 +1,3 @@
 ##Readme file
 
-Testing conflict
+Testing
