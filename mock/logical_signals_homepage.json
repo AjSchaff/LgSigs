@@ -1,30 +1,28 @@
 {
   "title": "Logical Signals",
+  "headline": "Logical Signals: Financial Market Analysis",
   "content": {
     "menu": [
       {
-        "text": "{LINK||sticky_nav_portfolio}"
+        "icon": "fa fa-fw fa-check",
+        "title": "Live Trade Room",
+        "content": "<strong>Including Live Trade Analysis:</strong> We share our full analysis for every trade we take, including when we plan to enter and why, where our stop will be, and where our profit targets will be."
       },
       {
-        "img": "/images/location_hours.jpg",
-        "text": "LOCATION AND HOURS"
+        "icon": "fa fa-fw fa-gift",
+        "title": "Single Source Support",
+        "content": "Get support from the source! Whether its brokerage, platform or both, NinjaTrader’s highly skilled team of support professionals ensures all requests are addressed in a timely fashion by the expert best prepared to assist you."
       },
       {
-        "img": "/images/bloc_card.jpg",
-        "text": "BLOC CARD"
-      },
-      {
-        "img": "/images/canopy.jpg",
-        "text": "CANOPY LOVE"
-      },
-      {
-        "img": "",
-        "text": "ABOUT"
-      },
-      {
-        "img": "",
-        "text": "",
-        "class": "bottom"
+        "icon": "fa fa-fw fa-compass",
+        "title": "Coaching Available",
+        "list": [
+          "Develop and maintain a trading process",
+          "Understand the motivation to trade",
+          "Establish a business plan that will guide your trading",
+          "Developing the necessary discipline",
+          "Develop a system."
+        ]
       }
     ],
     "main": {
