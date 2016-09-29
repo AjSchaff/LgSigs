@@ -2,7 +2,7 @@
 
 var express = require('express'),
 		 exphbs = require('express-handlebars'),
-	     home = require('./mock/home.json'),
+	     home = require('./mock/logical_signals_homepage.json'),
 			 path = require('path');
 
 var app = express();
