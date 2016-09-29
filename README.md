@@ -1,4 +1,1 @@
-Testing conflict
-Hi Kev :)
-
-Testing
+Readme file LgSits
