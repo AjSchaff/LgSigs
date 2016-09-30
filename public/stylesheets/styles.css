@@ -1,0 +1,13 @@
+.row-eq-height,
+  .col-md-4{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+
+  .panel-body{
+    ul{
+      margin-left: 15px;
+    }
+  }
+}
