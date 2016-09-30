@@ -9,7 +9,7 @@ var app = express();
 
 app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 
-app.use(express.static(path.join(__dirname, 'public/stylesheets')));
+app.use(express.static(path.join(__dirname, 'public')));
 
 app.set('view engine', 'handlebars');
 app.set('views', __dirname + '/views');
