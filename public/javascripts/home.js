@@ -1,16 +1,23 @@
 
 $(document).ready(function(){
 
-	var $target = $('body');
-	var global = {chartDrawn: false};
+  var home = function(){
 
-	 google.charts.load('current', {'packages':['corechart']});
+  	var $target = $('body');
+  	var global = {chartDrawn: false};
+
+    setupCharts = function(){
+
+      google.charts.load('current', {'packages':['corechart']});
 
       // Set a callback to run when the Google Visualization API is loaded.
       google.charts.setOnLoadCallback(chartScroll);
 
-      
-      function chartScroll() {
+
+
+    },
+
+    chartScroll = function() {
       	
       	$(window).scroll(function(){
       		//get position of chart container
@@ -27,9 +34,9 @@ $(document).ready(function(){
 
       	//trigger scroll on load in case we're on chart
       	$(window).scroll();
-      }
+    },
 
-      function drawChart() {
+    drawChart = function(){
 
         // Create the data table.
         var data = new google.visualization.DataTable();
@@ -51,29 +58,35 @@ $(document).ready(function(){
           				['80', 725000] ]);
      
         var options = {
-			    title: "Savings required per year to reach $1 million" , 
-			    titleFontSize: 18,
-			    fontName: "'Arial'", 
-		     	bold: false,
-		     	//chartArea: {width:'75%'},
-			    hAxis: { title: 'Age', textStyle: { fontSize: 12 }, titleFontSize: 18},
-			    vAxis: { title: 'Amount', textStyle: { fontSize: 12 }, format: '$#,###', titleFontSize: 18},
-			    legend: 'none',
-			    animation:{
-			    	startup: true,
-			        duration: 1600,
-			        easing: 'out'
-			      }
-			};
+  		    title: "Savings required per year to reach $1 million" , 
+  		    titleFontSize: 18,
+  		    fontName: "'Arial'", 
+  	     	bold: false,
+  	     	//chartArea: {width:'75%'},
+  		    hAxis: { title: 'Age', textStyle: { fontSize: 12 }, titleFontSize: 18},
+  		    vAxis: { title: 'Amount', textStyle: { fontSize: 12 }, format: '$#,###', titleFontSize: 18},
+  		    legend: 'none',
+  		    animation:{
+  		    	startup: true,
+  		        duration: 1600,
+  		        easing: 'out'
+  		      }
+          }
+
+            // Instantiate and draw our chart, passing in some options.
+          var chart = new google.visualization.ColumnChart(document.getElementsByClassName('google-chart-container')[0]);
+          chart.draw(data, options);
+
+          global.chartDrawn = true;
+  		}
+
+
+      return setupCharts();
 
  
 
-        // Instantiate and draw our chart, passing in some options.
-        var chart = new google.visualization.ColumnChart(document.getElementsByClassName('google-chart-container')[0]);
-        chart.draw(data, options);
-
-        global.chartDrawn = true;
-      }
+        
+    }();
 
 
 });
