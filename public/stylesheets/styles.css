@@ -1,13 +1,11 @@
-.row-eq-height,
-  .col-md-4{
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
+.row-eq-height  {
+  display: -webkit-inline-box
+}
 
-  .panel-body{
-    ul{
-      margin-left: 15px;
-    }
-  }
+.col-md-4 {
+  display: inherit;
+}
+
+.item img{
+  width: 100%;
 }
