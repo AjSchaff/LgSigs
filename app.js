@@ -18,8 +18,10 @@ app.get('/home', function (req, res){
 	res.render('index', home);
 });
 
+var port = process.env.PORT || 3000;
 
-app.listen(3000, function(){
+
+app.listen(port, function(){
 	console.log(__dirname);
 	console.log("The frontend server is running on port 3000!");
 })
