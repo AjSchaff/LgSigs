@@ -19,7 +19,7 @@ app.get('/home', function (req, res){
 });
 
 app.get('/', function (req, res){
-	res.redirect('/login');
+	res.redirect('/home');
 })
 
 var port = process.env.PORT || 3000;
