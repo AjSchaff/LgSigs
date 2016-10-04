@@ -18,6 +18,10 @@ app.get('/home', function (req, res){
 	res.render('index', home);
 });
 
+app.get('/', function (req, res){
+	res.redirect('/login');
+})
+
 var port = process.env.PORT || 3000;
 
 
