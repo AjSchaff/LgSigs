@@ -17,3 +17,11 @@
   height: 350px;
   width: 100%;
 }
+
+.disclaimer{
+  list-style: none;
+}
+
+.disclaimer li{
+  padding-bottom: 20px;
+}

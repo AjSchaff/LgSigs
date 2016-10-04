@@ -3,7 +3,7 @@
   "image": "images/Logical_Signals_homepage_banner.jpg",
   "headline": "Logical Signals: Financial Market Analysis",
   "content": {
-    "menu": [
+    "marketing": [
       {
         "icon": "fa fa-fw fa-check",
         "title": "Live Trade Room",
@@ -25,6 +25,28 @@
           "Develop a system."
         ]
       }
+    ],
+    "features":{
+      "title": "Trade Room Now Open For New Members",
+      "list": {
+        "title": "THE LIVE TRADE ROOM INCLUDES:",
+        "bullets": [
+          "Live Trade Analysis",
+          "Instruction",
+          "Live Discussion"
+        ],
+        "closing": "We all know the combined knowledge of a group of experts is infinitely more powerful than going it alone. Plus, the bottom line is a whole lot fatter when you can leverage the knowledge of a group."
+      }
+
+    },
+    "cta": {
+      "title": "<strong>Sign up now</strong> to receive login access and be added to our member’s list where we’ll let you know about everything happening in the group: special webinars, and what we think is worth taking a look at in the markets.",
+      "button": "Sign up now"
+    },
+    "disclaimer": [
+      "RISK DISCLOSURE: Online stocks, equities, futures and options trading has large potential rewards, but also large potential risk. You must be aware of the risks and be willing to accept them in order to invest in the stocks, equities, futures and options markets. Don’t trade with money you cannot afford to lose. This is neither a solicitation nor an offer to Buy/Sell any instrument or market. No representation is being made that any account will or is likely to achieve profits or losses similar to those discussed on this web site. The past performance of any trading system or methodology is not necessarily indicative of future results.",
+      "CFTC RULE 4.41 – HYPOTHETICAL OR SIMULATED PERFORMANCE RESULTS HAVE CERTAIN LIMITATIONS. UNLIKE AN ACTUAL PERFORMANCE RECORD, SIMULATED RESULTS DO NOT REPRESENT ACTUAL TRADING. ALSO, SINCE THE TRADES HAVE NOT BEEN EXECUTED, THE RESULTS MAY HAVE UNDER-OR-OVER COMPENSATED FOR THE IMPACT, IF ANY, OF CERTAIN MARKET FACTORS, SUCH AS LACK OF LIQUIDITY. SIMULATED TRADING PROGRAMS IN GENERAL ARE ALSO SUBJECT TO THE FACT THAT THEY ARE DESIGNED WITH THE BENEFIT OF HINDSIGHT. NO REPRESENTATION IS BEING MADE THAT ANY ACCOUNT WILL OR IS LIKELY TO ACHIEVE PROFIT OR LOSSES SIMILAR TO THOSE SHOWN.",
+      "Use of any of this information is entirely at your own risk, for which LOGICALSIGNALS.COM will not be liable. Neither we nor any third parties provide any warranty or guarantee as to the accuracy, timeliness, performance, completeness or suitability of the information and content found or offered in the material for any particular purpose. You acknowledge that such information and materials may contain inaccuracies or errors and we expressly exclude liability for any such inaccuracies or errors to the fullest extent permitted by law. All information exists for nothing other than entertainment and general educational purposes. We are not registered trading advisors."
     ]
   }
 }
