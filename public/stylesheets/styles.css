@@ -1,3 +1,27 @@
+/* navbar */
+.navbar-inverse {
+    background-color: #2C343B;
+    border-color: #2C343B;
+}
+
+
+/* panel headings */
+.panel-default>.panel-heading{
+  background-color: #9CB9D5;
+}
+
+/* */
+.btn-default{
+  color: #fff;
+  background-color: #2C343B;
+  border-color: #253D55;
+}
+
+.btn-default:hover{
+  color: #fff;
+  background-color: #3B6288;
+}
+
 .row-eq-height  {
   display: -webkit-inline-box
 }
@@ -12,6 +36,10 @@
 
 .grow { transition: all .2s ease-in-out; }
 .grow:hover { transform: scale(1.1); }
+
+.well{
+  background-color: #9CB9D5;
+}
 
 .google-chart-container{
   height: 350px;

@@ -11,29 +11,33 @@
       },
       {
         "icon": "fa fa-fw fa-gift",
-        "title": "Single Source Support",
-        "content": "Get support from the source! Whether its brokerage, platform or both, NinjaTrader’s highly skilled team of support professionals ensures all requests are addressed in a timely fashion by the expert best prepared to assist you."
+        "title": "Auto Trader",
+        "content": "Bacon ipsum dolor amet cow flank shankle pork loin shoulder pork belly. Tongue sirloin doner, chicken shoulder tail filet mignon short loin kielbasa bresaola andouille. Filet mignon biltong spare ribs shoulder chicken hamburger turkey beef ribs, meatloaf picanha meatball. Cow pork loin cupim frankfurter kevin drumstick ball tip meatloaf shankle."
       },
       {
         "icon": "fa fa-fw fa-compass",
-        "title": "Coaching Available",
+        "title": " One on One Coaching",
         "list": [
-          "Develop and maintain a trading process",
-          "Understand the motivation to trade",
-          "Establish a business plan that will guide your trading",
-          "Developing the necessary discipline",
-          "Develop a system."
+          "Trader Development",
+          "Developing and maintaining a trading process",
+          "Understanding the motivation to trade",
+          "Establishing a Busing Plan",
+          "Establishing a Trade Plan",
+          "Developing the necessary discipline to trade successfully",
+          "Learn how to grow a small account  and the power of money management"
         ]
       }
     ],
     "features":{
       "title": "Trade Room Now Open For New Members",
       "list": {
-        "title": "THE LIVE TRADE ROOM INCLUDES:",
+        "title": "LIVE TRADE ROOM INCLUDES:",
         "bullets": [
           "Live Trade Analysis",
-          "Instruction",
-          "Live Discussion"
+          "Assessment of current market conditions",
+          "Determining appropriate strategy based on current market conditions",
+          "Defining entries, stop loss, and profit targets",
+          "Ongoing live discussion and instruction on discretionary trading and use of auto trader. "
         ],
         "closing": "We all know the combined knowledge of a group of experts is infinitely more powerful than going it alone. Plus, the bottom line is a whole lot fatter when you can leverage the knowledge of a group."
       }
